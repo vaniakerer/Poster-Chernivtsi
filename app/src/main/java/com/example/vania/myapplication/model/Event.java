@@ -109,7 +109,4 @@ public class Event {
         this.id_rate = id_rate;
     }
 
-    public void mToString() {
-        System.out.println("asdasdasd" + getDescription() + getTitle() + getImageUrl() + getEventDate());
-    }
 }

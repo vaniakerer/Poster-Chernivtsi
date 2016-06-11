@@ -1,7 +1,6 @@
 package com.example.vania.myapplication;
 
 import android.app.ProgressDialog;
-import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -13,8 +12,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.example.vania.myapplication.adapter.TabsFragmentAdapter;
 import com.example.vania.myapplication.fragment.CurrentEventFragment;
@@ -33,8 +30,7 @@ import retrofit.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    //змінна для url-а сервера, який вводить юзер
-    public String tempUrl;
+
 
     private TabsFragmentAdapter adapter;
     public List<Event> testList = new ArrayList<>();
@@ -140,48 +136,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //-------menu----------
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu, menu);
-
-        SharedPreferences sharedPreferences = getSharedPreferences(Constants.loginSP, MODE_PRIVATE);
-        if (sharedPreferences.getString(Constants.loginSt, "").equals("user")){
-            menu.getItem(1).setVisible(true);
-        }
-        if (sharedPreferences.getString(Constants.loginSt, "").equals("admin")){
-            menu.getItem(5).setVisible(true);
-        }
-
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-
-        switch (id){
-            case R.id.color_mainActivity:
-                    //TODO change appcolor
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    //-------menu----------
 
     //Таск для загрузки івентів
     private class EventTask extends AsyncTask<Void, Integer, List<Event>>{
 
         @Override
         protected List<Event> doInBackground(Void... params) {
-            PosterService posterService = ApiFactory.getPosterService(Constants.serverURL + Constants.serverPORT);
-
-            Log.d("SERVERIP", Constants.serverURL + Constants.serverPORT );
+            PosterService posterService = ApiFactory.getPosterService(Constants.serverURL);
 
             Call<List<Event>> call = posterService.getEvents();
 

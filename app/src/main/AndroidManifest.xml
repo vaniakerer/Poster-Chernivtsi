@@ -30,7 +30,6 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/fb_api_key" />
 
-        <activity android:name=".activities.NewPostActivity" />
     </application>
 
 </manifest>

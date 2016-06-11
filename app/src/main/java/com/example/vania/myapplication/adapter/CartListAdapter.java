@@ -48,7 +48,7 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.Remind
         holder.description.setText(item.getDescription());
         holder.imageUrl.setText(item.getImageUrl());
 
-        //TODO RATE
+
 
         Picasso.with(holder.author.getContext())
                 .load(item.getImageUrl())

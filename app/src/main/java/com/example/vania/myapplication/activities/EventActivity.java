@@ -1,7 +1,5 @@
 package com.example.vania.myapplication.activities;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,7 +8,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -18,14 +15,7 @@ import android.widget.TextView;
 import com.example.vania.myapplication.Constants;
 import com.example.vania.myapplication.MainActivity;
 import com.example.vania.myapplication.R;
-import com.example.vania.myapplication.model.Event;
-import com.example.vania.myapplication.rest_api.ApiFactory;
-import com.example.vania.myapplication.rest_api.PosterService;
 import com.squareup.picasso.Picasso;
-
-import retrofit.Call;
-import retrofit.Callback;
-import retrofit.Response;
 
 public class EventActivity extends AppCompatActivity {
 
@@ -87,7 +77,7 @@ public class EventActivity extends AppCompatActivity {
         event_description = (TextView) findViewById(R.id.current_event_description);
         event_type = (TextView) findViewById(R.id.event_type);
         typeImage = (ImageView) findViewById(R.id.current_type_image);
-        deleteFab = (FloatingActionButton) findViewById(R.id.delete_fab);
+
 
         //setting info into TV's
         id.setText(intent.getStringExtra("id"));
@@ -108,22 +98,6 @@ public class EventActivity extends AppCompatActivity {
                 .resize(500, 280)
                 .into(bgHeader);
 
-        initFabs();
-    }
-
-    private void initFabs() {
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        FloatingActionButton deleteFab = (FloatingActionButton) findViewById(R.id.delete_fab);
-
-
-
-        deleteFab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                /*deleteEvent(id.getText().);*/
-                makeDIalod();
-            }
-        });
     }
 
     private void initEventTypeIcon(){
@@ -183,47 +157,9 @@ public class EventActivity extends AppCompatActivity {
 
     }
 
-    private void deleteEvent(long id){
-        PosterService service = ApiFactory.getPosterService(Constants.serverURL + Constants.serverPORT);
-        Call<Event> call = service.deleteEvent(id);
-        call.enqueue(new Callback<Event>() {
-            @Override
-            public void onResponse(Response<Event> response) {
-                Log.d("DELETE EVENT: ", "true");
-                onBackPressed();
-            }
-
-            @Override
-            public void onFailure(Throwable t) {
-                Log.d("DELETE EVENT:", "false");
-            }
 
 
-        });
-    }
 
-    public void makeDIalod(){
-        final AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        alert.setTitle(R.string.dialod_delete_title);
-        alert.setMessage(R.string.dialog_delete_message);
-        alert.setIcon(R.drawable.delete);
-
-        alert.setPositiveButton(R.string.dialog_delete_submit, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                deleteEvent(Long.parseLong(intent.getStringExtra("id")));
-            }
-        });
-
-        alert.setNegativeButton(R.string.dialog_delete_cancel, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-
-            }
-        });
-
-        alert.show();
-    }
 
     @Override
     public void onBackPressed() {
