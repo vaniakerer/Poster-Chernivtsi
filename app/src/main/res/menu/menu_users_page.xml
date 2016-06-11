@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".user_page.UserPageActivity">
+
+    <item
+        android:title="@string/upMenu_edit_info"
+        android:icon="@drawable/mypage_edite_enable"
+        android:id="@+id/edit_info_myPage"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:title="@string/upMenu_save_changes"
+        android:icon="@drawable/mypage_save_changes"
+        android:id="@+id/save_changes_myPage"
+        app:showAsAction="always"
+
+        android:visible="true"
+        />
+
+
+</menu>
+

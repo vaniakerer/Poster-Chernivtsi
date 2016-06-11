@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/event_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_person_24dp"
+            app:civ_border_width="0.2dp"
+            app:civ_border_color="@color/icons_color"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_title_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_id_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_img_url_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_description_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_post_date_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_event_date_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_id_author_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_id_admin_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_id_type_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_id_rate_up"
+            android:textColor="@color/messages_userName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:text="name"/>
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

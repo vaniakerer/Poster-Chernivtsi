@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Масив типів івентів-->
+    <string-array name="event_types_array">
+        <item>Type</item>
+        <item>Disco party</item>
+        <item>IT event</item>
+        <item>Rally event</item>
+        <item>Presentation</item>
+        <item>Sport</item>
+        <item>Education</item>
+    </string-array>
+    <!--Масив типів івентів-->
+
+</resources>

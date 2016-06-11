@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#90caf9</color>
+    <color name="black">#000</color>
+    <color name="white_">#ffffff</color>
+    <color name="icons_color">#0d47a1</color>
+    <color name="messages_userName">#222222</color>
+    <color name="messages_date">#999999</color>
+    <color name="toolbar_icon_color">#fff</color>
+    <color name="twitter_button">#24a2bc</color>
+    <color name="buttons_color">#026184</color>
+    <color name="background_color">#0099cc</color>
+
+</resources>
