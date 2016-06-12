@@ -77,7 +77,7 @@ public class EventsListAdapter extends RecyclerView.Adapter<EventsListAdapter.My
         holder.title.setText(event.getTitle());
         holder.eventDate.setText(event.getEventDate());
         holder.postDate.setText(event.getPostDate());
-        holder.author_id.setText(Integer.toString((int) event.getId_author()));
+        holder.author_id.setText( event.getId_author());
         holder.eventType.setText(Integer.toString((int) event.getId_type()));
         holder.eventId.setText(Integer.toString((int) event.getId()));
         holder.imageUrl.setText(event.getImageUrl());

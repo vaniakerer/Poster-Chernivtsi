@@ -30,8 +30,6 @@ import retrofit.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     private TabsFragmentAdapter adapter;
     public List<Event> testList = new ArrayList<>();
 
@@ -66,8 +64,6 @@ public class MainActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(false); // remove the left caret
             actionBar.setDisplayShowHomeEnabled(false); // remove the icon
         }
-
-
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -78,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
     }
 
-    //---------------------initviews---------------------
+    //---------------------init views---------------------
 
     private void initTabs() {
         viewPager = (ViewPager) findViewById(R.id.viewpager);
@@ -190,6 +186,4 @@ public class MainActivity extends AppCompatActivity {
             progress.show();
         }
     }
-
-
 }

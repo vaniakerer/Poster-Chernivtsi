@@ -40,7 +40,7 @@ public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.Remind
 
 
         holder.title.setText(item.getTitle());
-        holder.author.setText(( Integer.toString((int) item.getId_author())));
+        holder.author.setText( item.getId_author());
         holder.postDate.setText(item.getPostDate());
         holder.eventDate.setText(item.getEventDate());
         holder.eventType.setText(Integer.toString((int) item.getId_type()));

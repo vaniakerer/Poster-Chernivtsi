@@ -13,7 +13,6 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.example.vania.myapplication.Constants;
-import com.example.vania.myapplication.MainActivity;
 import com.example.vania.myapplication.R;
 import com.squareup.picasso.Picasso;
 
@@ -155,14 +154,5 @@ public class EventActivity extends AppCompatActivity {
                 return getString(R.string.type_e_default);
         }
 
-    }
-
-
-
-
-
-    @Override
-    public void onBackPressed() {
-        startActivity(new Intent(EventActivity.this, MainActivity.class));
     }
 }

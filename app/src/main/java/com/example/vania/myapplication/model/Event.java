@@ -8,7 +8,7 @@ public class Event {
     String imageUrl;
     String postDate;
     String eventDate;
-    long id_author;
+    String id_author;
     long id_admin;
     long id_type;
     long id_rate;
@@ -16,7 +16,7 @@ public class Event {
     public Event() {
     }
 
-    public Event(long id, String title, String description, String imageUrl, String postDate, String eventDate, long id_author, long id_admin, long id_type, long id_rate) {
+    public Event(long id, String title, String description, String imageUrl, String postDate, String eventDate, String id_author, long id_admin, long id_type, long id_rate) {
         this.id = id;
         this.title = title;
         this.description = description;
@@ -77,11 +77,11 @@ public class Event {
         this.eventDate = eventDate;
     }
 
-    public long getId_author() {
+    public String getId_author() {
         return id_author;
     }
 
-    public void setId_author(long id_author) {
+    public void setId_author(String id_author) {
         this.id_author = id_author;
     }
 
