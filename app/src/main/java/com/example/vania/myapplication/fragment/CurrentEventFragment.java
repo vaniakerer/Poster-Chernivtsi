@@ -23,10 +23,11 @@ public class CurrentEventFragment extends AbstractTabFragment  {
     private static final int LAYOUT = R.layout.current_event_fragment;
     private List<Event> data = new ArrayList<>();
     private CartListAdapter adapter;
+    private static CurrentEventFragment fragment;
 
     public static CurrentEventFragment getInstance(Context context, List<Event> data){
         Bundle args = new Bundle();
-        CurrentEventFragment fragment = new CurrentEventFragment();
+        fragment = new CurrentEventFragment();
         fragment.setArguments(args);
         fragment.setData(data);
         fragment.setContext(context);
@@ -61,5 +62,6 @@ public class CurrentEventFragment extends AbstractTabFragment  {
     public void refreshData(List<Event> data){
         adapter.setData(data);
         adapter.notifyDataSetChanged();
+
     }
 }

@@ -83,6 +83,7 @@
     <string name="my_Blue">Blue</string>
     <string name="my_blue">Blue</string>
     <string name="my_green">Green</string>
+    <string name="check_internet_connection">Please check internet connection</string>
 
 
 </resources>

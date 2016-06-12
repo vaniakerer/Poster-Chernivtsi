@@ -12,6 +12,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.example.vania.myapplication.adapter.TabsFragmentAdapter;
 import com.example.vania.myapplication.fragment.CurrentEventFragment;
@@ -161,6 +162,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onFailure(Throwable t) {
                     Log.d("LOAD EVENTS", "fail");
+                    Toast.makeText(getApplicationContext(), R.string.check_internet_connection, Toast.LENGTH_LONG).show();
                 }
             });
             Log.d("LOAD EVENTS", "rdy");
