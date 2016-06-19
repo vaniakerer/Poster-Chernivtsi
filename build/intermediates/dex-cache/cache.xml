@@ -1,2 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/ivan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_fe1568b359bee7e47e4994a850bff59a0456f5bd/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.0_fa984d0e8aadf9ae7ee8fe79850c779ebd886432/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-21.0.3_6833ced067f4d52ec66f150f279784897aac73db/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.0_e087a17e3a6596711f91ccb3d09c670c95733383/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta1/3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a/converter-gson-2.0.0-beta1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.0-beta1_2953e0922e319c09f59b7b453d13c6b1c3dae040/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.mikhaellopez/circularprogressbar/1.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="bf3c6cdf3e1aa3b54debc3026480fcdf1e506df5">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikhaellopez-circularprogressbar-1.1.1_99d95bf2f6f34bacd3293dcff06e7b674e55aeb3/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta1/53b5be42d6cf719ac1431b9aa9a4d5ab78856148/retrofit-2.0.0-beta1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.0-beta1_a98dbe7570bc99225020d982c58027531114b36d/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.0.0_8df344a2527103a67071c1b9ce5e6c2f9462819a/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.1.2_0b799f8178fa6937f131f4408d79306f28a78930/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_aa549b802f9d2d49a33c791588fb11e8a078d617/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.0_d7f653a45d5bb25827227c9a08a0dacaa95467b9/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.0.1_293657f0c8d30955135663f9ee556bcefa93377e/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-21.0.3_d6b5fda9bda33c3f3414019b29031a263b151fb8/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.0_d402730542bb0696e8bbe6854725083fbf5c3c90/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.5.0_a98b5aa78d36ecfb8544c19b164b1f7686eca1e8/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7fc9691d30b472139e5a841291757ceae0c4f81b">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fe762e7a7f21c65981747e055bfde918feb5ed53/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-3.21.1_1fdf5853e012244a7476f1419b037569610a84c0/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_0f1cba4b3e4318a5e35c6b919007ccdcdb0083fd/classes.dex" />
+    </item>
+    <item
+        jar="/home/ivan/Poster/Android-client/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a16d7242e5623f3aa1ac20e54e7aece013487d91">
+        <dex dex="/home/ivan/Poster/Android-client/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3e96bee8aae8ddb6d7496aa45a7135a8c226a1f7/classes.dex" />
+    </item>
+
+</items>

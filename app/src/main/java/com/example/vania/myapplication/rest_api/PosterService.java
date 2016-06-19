@@ -12,7 +12,7 @@ import retrofit.http.Path;
 public interface PosterService {
 
     // get all events
-    @GET("/android_app/get_all_events.php")
+    @GET("host/0B9BivXKAYq-KSEtFcW1zc3hQUkE")
     Call<List<Event>> getEvents();
 
     //get event by id
